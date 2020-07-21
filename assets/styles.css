@@ -6,3 +6,11 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.progress {
+    background-color: red;
+}
+
+.progressbar {
+    background-color: green;
+}
