@@ -10,28 +10,35 @@
 
     <style>
         body {
-            background-color: #3BAF10;
+            background-color: #F8F8F8;
             align-content: center;
             text-align: center;
 
         }
 
-        /* .top-box {
-            align-items: center;
-        } */
+        .top-box {
+            align-self: center;
+        }
 
         .col-md-4 {
             align-self: center;
+            background-color: black;
 
         }
 
         .div-one {
             box-sizing: border-box;
-            background-color: lightgreen;
+            background-color: #04C2C9;
             border-color: white;        
             border-style: solid;
             padding: 2.5%;
             
+        }
+
+        @media only screen and (max-width: 500px) {
+
+          
+
         }
     </style>
 
@@ -39,29 +46,33 @@
 <body>
 
 
-<!-- <div class="top-box"> -->
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFS4jgFiSO4Ig/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=TGLgWA9_zb15WortGqHr3NNo1Vv0N2eUgspc0-bXLwE" class="card-img" alt="Photo of me">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h3 class="card-title">Nicholas Paul Ruiz Dallas</h3>
-              <p class="card-text">Welcome to my page. I have worked hard in the past couple of months to make these projects. Please feel free to look around and see applicaiton that I personally created.</p>
-              <p class="card-text"><small class="text-muted">I've come to realize that the true gift is leaving it better than you found it.</small></p>
-            </div>
-          </div>
+<div class="top-box">
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQFS4jgFiSO4Ig/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=TGLgWA9_zb15WortGqHr3NNo1Vv0N2eUgspc0-bXLwE"
+          class="card-img" alt="Photo of me">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">Nicholas Paul Ruiz Dallas</h3>
+          <p class="card-text">Welcome to my page. I have worked hard in the past couple of months to make these
+            projects. Please feel free to look around and see applicaiton that I personally created.</p>
+          <p class="card-text"><small class="text-muted">I've come to realize that the true gift is leaving it better
+              than you found it.</small></p>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="div-one">
     <div>
         <!-- I need to create <div><a href="Website URL"</a></div> for each button.-->
-        <button type="button" class="btn btn-success">My Contact Page</button>
-        <button type="button" class="btn btn-danger">My Business Page</button>
-        <button type="button" class="btn btn-primary">My LinkedIn Page</button>
+        <button type="button" class="btn btn-light">Contact Page</button>
+        <button type="button" class="btn btn-light">Business Page</button>
+        <button type="button" class="btn btn-light">Portfolio Page</button>
     </div>  
    </div>
     
