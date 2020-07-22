@@ -21,7 +21,7 @@ This is my portfolio that I have created. This is my first page that I have crea
     Media queries
     use correct folder such as: Assets/Images
 3. Use Grid System
-4.Make compatable with mobil device
+4. Make compatable with mobil device
 5. Valid my HTML
 6. Commit 
 7. Follow all Minimim Requirments
