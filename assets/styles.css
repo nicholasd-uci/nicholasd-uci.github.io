@@ -12,6 +12,7 @@ h1 {
 
 h2 {
     color: #0EC9EA;
+    text-align: center;
 }
 
 h4 {
@@ -35,4 +36,11 @@ p {
 
 .progressbar {
     background-color: green;
+}
+
+
+
+
+.footer {
+    text-align: center;
 }
