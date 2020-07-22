@@ -1,14 +1,36 @@
 body {
-    background-color: #0EC9EA;
+    background-color: #FAF0E2;
 }
 
 h1 {
-    color: white;
+    background-color: #FAF0E2;
+    color:#0EC9EA;
     text-align: center;
+    border: solid 10px;
+    padding: 2.5%;
+}
+
+h2 {
+    color: #0EC9EA;
+}
+
+h4 {
+    color: #0EC9EA;
+}
+
+p {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: maroon;
+    border: solid 10px;
+    border-color: whitesmoke;
+    padding: 1.0%;
+
 }
 
 .progress {
-    background-color: red;
+    background-color: white;
 }
 
 .progressbar {
