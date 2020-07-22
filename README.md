@@ -1,32 +1,36 @@
 # nicholasd-uci.github.io
 
 
-# This is big
-## This is bigger
-### This is the biggest of them
+# Nicholas Dallas Portfolio
 
-**This is bold text**
+### Available for hire:
 
-*This is italicized*
+> My portfolio consist of HTML + CSS + JS and was made for Employer to see my value and what I can bring to their team. Welcome Page, Portfolio Code, and my Contact Page.
 
-**This is _important_ text**
+***
+**Please see below description of this page.**
+*Homework Assignment Details- Week 01 Homework02*
 
-~~This is mistaken text~~
+This is my portfolio that I have created. This is my first page that I have created from scratch. In this homework assignment there were several focus points.
 
-***This is uber important text**
+1. Index.html, portfolio.html, contact.html
+2. Use bootstrap with the following:
+    Navbar
+    Responsive layout
+    Responsive images
+    Media queries
+    use correct folder such as: Assets/Images
+3. Use Grid System
+4.Make compatable with mobil device
+5. Valid my HTML
+6. Commit 
+7. Follow all Minimim Requirments
 
-# Calculator App
+***
+##Conclusion:
 
-### Worked on by Nicholas & Calum
-
-> This app is a HTML + JS Cal, made for your math needs
-
-We worked on this in class today, but we couldn't get the numbers to be integers and the came out as a strings. 
-
-On this app, we utlized _Javescript_ to handle the operations and the logic behind the cal. The **HTML** was used to have the user interactive experience by providing buttons to handle the passing of data to the _Javescript_. 
+On this app, we utlized _Javescript_. The **HTML** was used to have the user interactive experience by providing buttons to handle redirecting you around the page. Lastly, _CSS_ was installed in a style sheet and inlining to make the page look appealing. 
 
 
-
-
-
+***
 ***Copyright by Nicholas Dallas***
