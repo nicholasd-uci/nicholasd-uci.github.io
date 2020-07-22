@@ -1,22 +1,27 @@
 body {
-    background-color: #FAF0E2;
+    background-color: #ABABAB;
 }
 
 h1 {
-    background-color: #FAF0E2;
-    color:#0EC9EA;
+    background-color: whitesmoke;
+    color: maroon;
     text-align: center;
-    border: solid 10px;
+    border: solid 7px;
     padding: 2.5%;
 }
 
 h2 {
-    color: #0EC9EA;
+    color: maroon;
     text-align: center;
 }
 
 h4 {
-    color: #0EC9EA;
+    color: maroon;
+}
+
+h6 {
+    color: white;
+    font-size: medium;
 }
 
 p {
@@ -24,19 +29,21 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
     color: maroon;
-    border: solid 10px;
-    border-color: whitesmoke;
+    border: solid 5px;
     padding: 1.0%;
 
 }
+
+
 
 .progress {
     background-color: white;
 }
 
-.progressbar {
-    background-color: green;
-}
+/* NEED HELP** I dont understand why this class wont pick up? */
+/* .progress-bar w-75 {
+    background-color: blue;
+} */
 
 
 
