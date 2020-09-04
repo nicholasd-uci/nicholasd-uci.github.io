@@ -1,15 +1,12 @@
-# nicholasd-uci.github.io
-
-
-# Nicholas Dallas Portfolio
+# Nicholas Paul Ruiz Dallas Portfolio
 
 ### Available for hire:
 
+
 > My portfolio consist of HTML + CSS + JS and was made for Employer to see my value and what I can bring to their team. Welcome Page, Portfolio Code, and my Contact Page.
 
-***
+
 **Please see below description of this page.**
-*Homework Assignment Details- Week 01 Homework02*
 
 This is my portfolio that I have created. This is my first page that I have created from scratch. In this homework assignment there were several focus points.
 
@@ -21,16 +18,22 @@ This is my portfolio that I have created. This is my first page that I have crea
     Media queries
     use correct folder such as: Assets/Images
 3. Use Grid System
-4. Make compatable with mobil device
+4. Make compatitable with mobil device
 5. Valid my HTML
 6. Commit 
 7. Follow all Minimim Requirments
 
-***
+
 ##Conclusion:
+On this app, we utilized _Javascript_. The **HTML** was used to have the user interactive experience by providing buttons to handle redirecting you around the page. Lastly, _CSS_ was installed in a style sheet and inlining to make the page look appealing. 
 
-On this app, we utlized _Javescript_. The **HTML** was used to have the user interactive experience by providing buttons to handle redirecting you around the page. Lastly, _CSS_ was installed in a style sheet and inlining to make the page look appealing. 
+##Links:
+1. [Updated Portfolio](https://nicholasd-uci.github.io/)
+2. [GitHub Profile](https://github.com/nicholasd-uci)
+3. [Updated Resume](https://docs.google.com/document/d/1JpIv0Btfy6Y2avDfy8qgZOEuYZiuAycRNsmDYtpJT7w/edit?usp=sharing)
+4. [Updated LinkedIn](https://www.linkedin.com/in/nicholas-dallas-54b5b097/)
 
 
-***
-***Copyright by Nicholas Dallas***
+
+**Licensing**
+&copy; Nicholas Paul Ruiz Dallas
