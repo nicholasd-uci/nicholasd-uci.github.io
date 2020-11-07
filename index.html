@@ -1,103 +1,142 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Nicholas Dallas</title>
+  <title>N.P.R.D~Full Stack Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="icon" href="./assets/Image/logo.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .jumbotron{
+      padding-bottom: 9%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      background-color: black;
+      background-image: url("https://media.giphy.com/media/jaOXKCxtBPLieRLI0c/giphy.gif");
+    }
+    .name {
+      color: yellow !important;
+    }
+    .title {
+      color: purple !important;
+    }
+    #portButton {
+      font-size: 30px;
+      border: solid white;
+      transition-duration: 1s;
+    }
+    #portButton:hover {
+      background-color: purple;
+      color : yellow;
+    }
+    body {
+      background-color:lightslategray;
+    }
+    
+    footer {
+      background-color: #000000;
+      color: lightyellow;
+      padding: 25px;
+    }
 
-    <!-- I need to include  the href="./assets./reset.css" -->
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="icon" href="./assets/Image/logo.ico">
-    <link rel="stylesheet" href="./assets/styles.css">
-
-
-  <img src="http://placeimg.com/640/480/tech" alt="My cover photo" class="profile-image">
-
-
-</head> 
-
+  </style>
+</head>
 <body>
 
-  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <a class="nav-link active" href="index.html" target="_blank">Home</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" href="./portfolio.html" target="_blank">Portfolio</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" href="./contact.html" target="_blank">Hire Me</a>
-    </li>
-  </ul>
-
-  <!-- I DONT KNOW IF I NEED THIS OR NOT? OR MAYBE IM NOT UNDERSTANDING WHAT IT IS DOING!!! **ask for help** -->
-  <!-- <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-  </div> -->
-
-    <h1>Welcome to my Protfolio</h1>
-
-    <br><br><br><br>
-
-    <p> This is alittle bit about me and my coding journey...Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum. Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum. Zombie ipsum reversus ab viral inferno, nam rick grimes malum Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse. </p>
-
-
-    <br><br><br><br>
-
-    <div>
-      <h2>My Coding Processing</h2>
-
-      <br><br><br>
-
-      <div><h4>This is my progress in my UCI Full Stack Development Class</h4></div>
-      <div class="progress">
-        <div class="progress-bar w-25" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div><h6>25 % Completed so far</h6></div>
-
-      <br><br>
-
-      <div><h4>This is my progress in Python!</h4></div>
-      <div class="progress">
-        <div class="progress-bar w-50" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div><h6>7 Hours out of 12 Completed so far</h6></div>
-
-      <br><br>
-
-      <div><h4>This is my progress on my Business Page</h4></div>
-      <div class="progress">
-        <div class="progress-bar w-75" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-      <div>
-        <h6>75% Completed so far - Check it out</h6> 
-        <br>
-        <center><button><a class="nav-link active" href="https://wickedwolfden.com/" target="_blank"> My Business Page</a></button></center>
-      </div>
-
-      
+<div class="jumbotron">
+  <div class="container text-center">
+      <img src="https://media.giphy.com/media/jaOXKCxtBPLieRLI0c/giphy.gif" alt="GifPhoto"> 
+      <h1 class="name">Nicholas Paul Ruiz Dallas</h1>      
+      <h1 class="title">I'm a Full Stack Web Developer </h1>
+  </div><br>
+  <center><button id="portButton" type="button" class="btn btn-link">NPRD Gallery</button></center>
+</div>
+<!-- Start of the Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">N.P.R.D</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!-- <li class="active"><a href="index.html">Home</a></li> -->
+        <!-- <li><a href="#">About</a></li> -->
+        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/nicholasd-uci" target="_blank"><span class="glyphicon glyphicon-log-in"></span> GitHub Profile</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of Navbar -->
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
 
-    <br><br><br>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
 
-    <section>
-      <div class="footer">
-        <footer>
-          <!-- <footer class="container-fluid text-center"> -->
-          <p>
-            Developed By | Nicholas Paul Ruiz Dallas
-            &copy; N.P.R.D 2020
-          </p>
-        </footer>
-      </div>
-    </section>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<footer class="container-fluid text-center">
+  <p>
+    Developed By | Nicholas Paul Ruiz Dallas
+    &copy; N.P.R.D 2020
+  </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
